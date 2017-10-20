@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="test" Type="Folder" URL="..">
+		<Item Name="TNB-S600KZ型控制板自动化检测装置" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -268,24 +268,13 @@
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{C1CAC7E8-4E7B-4A7A-98A9-288F0FE55483}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85F369D7-74DE-416E-875A-D60E76799B2B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/TNB-S600KZ型控制板自动化检测装置/VI/主界面/主界面.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/test/VI/测试报告/_Word Dynamic VIs.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/test/VI/自动检测/数字量输出/数字量输出自动检测_fast.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sky123.Org</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
