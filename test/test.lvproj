@@ -117,9 +117,11 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
 				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
@@ -209,6 +211,7 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -291,6 +294,86 @@
 				<Property Name="TgtF_productName" Type="Str">test</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1B471B6F-A0EF-4186-8EBC-AE2279EE0345}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">test.exe</Property>
+			</Item>
+			<Item Name="我的安装程序" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">test</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{D0EE038D-1F5A-4139-8A5C-1180618023CB}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{EF367060-8B96-4290-BB4D-13D435408C89}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">LabVIEW运行引擎2010</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{9F6EADB1-707C-41AF-8F3D-FB856FA8BD1C}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{21EF2C48-A06F-4001-8E0B-72DCA779860F}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI DataSocket 4.8</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{81A7E53E-9524-41CE-90D3-7DD3D90B6C58}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{49C6FE81-CE63-4B49-A295-7A10B96D36CD}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW部署版许可证2010</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{F0881D07-B74D-484D-A43D-5602697AC76D}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{F055B0A4-8F75-4F85-B6FF-1C5BE10A72DC}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabWindows/CVI运行引擎 9.0.0</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{80D3D303-75B9-4607-9312-E5FC68E5BFD2}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{4E97AAFD-E743-43FE-B876-CD29D40AEA29}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI Measurement &amp; Automation Explorer 4.7</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{C77D7C5C-613E-4A4B-B654-CF416A0E97AB}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI System Configuration Runtime 1.1.0</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{8DA7D661-2184-4B78-8220-73F9878E9992}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI USI 1.8.0</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
+				<Property Name="DistPart[7].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[7].productID" Type="Str">{C2AD80E1-9484-42F4-BA13-B3B045723ACB}</Property>
+				<Property Name="DistPart[7].productName" Type="Str">NI变量引擎2.4.0</Property>
+				<Property Name="DistPart[7].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
+				<Property Name="DistPart[8].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[8].productID" Type="Str">{E0C32607-2DD4-4124-9A74-351D135FAD4B}</Property>
+				<Property Name="DistPart[8].productName" Type="Str">NI分布式系统管理器2010</Property>
+				<Property Name="DistPart[8].upgradeCode" Type="Str">{96404834-D484-4B24-AF79-C4D2F1A0CF12}</Property>
+				<Property Name="DistPart[9].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[9].productID" Type="Str">{F444664E-87EE-43D1-B829-0F78D3F20C79}</Property>
+				<Property Name="DistPart[9].productName" Type="Str">适用于Microsoft Excel的NI TDM Excel插件</Property>
+				<Property Name="DistPart[9].upgradeCode" Type="Str">{6D2EBDAF-6CCD-44F3-B767-4DF9E0F2037B}</Property>
+				<Property Name="DistPartCount" Type="Int">10</Property>
+				<Property Name="INST_author" Type="Str">China</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/test/我的安装程序</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">我的安装程序</Property>
+				<Property Name="INST_defaultDir" Type="Str">{D0EE038D-1F5A-4139-8A5C-1180618023CB}</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">test</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="MSI_arpCompany" Type="Str">China</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.china.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{48471600-CA7A-4211-B75F-DD902CA9C38D}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{9DC010B7-7D36-4A49-B6DC-BAE39FDF4B61}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{D0EE038D-1F5A-4139-8A5C-1180618023CB}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{D0EE038D-1F5A-4139-8A5C-1180618023CB}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">test.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">test</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">test</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Ref">/我的电脑/test/builds/test.exe</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">builds</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/test/builds</Property>
+				<Property Name="Source[0].type" Type="Str">Folder</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
