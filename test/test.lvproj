@@ -213,7 +213,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="test" Type="EXE">
