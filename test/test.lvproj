@@ -368,7 +368,7 @@
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">test</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">test</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Ref">/我的电脑/test/builds/test.exe</Property>
+				<Property Name="Source[0].File[0].tag" Type="Ref"></Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">builds</Property>
 				<Property Name="Source[0].tag" Type="Ref">/我的电脑/test/builds</Property>
