@@ -144,6 +144,7 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -211,7 +212,7 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -271,7 +272,7 @@
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{8D8D3F18-BB27-490A-9266-498CDF03D4CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4BEAE028-0367-43F4-8F21-2483034B0022}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
@@ -285,7 +286,15 @@
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/test/VI/自动检测/数字量输出/数字量输出自动检测_fast.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/test/VI/板卡测试II/自动测试/类型1测试/测试类型1自动测试一组.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/test/VI/自动检测/模拟量输入/模拟量输入自动测试.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sky123.Org</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
