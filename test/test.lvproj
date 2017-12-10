@@ -13,7 +13,6 @@
 		<Item Name="test" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="未命名 1.vi" Type="VI" URL="/C/Users/Administrator/Desktop/未命名 1.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="BioIsFailed.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/BioIsFailed.vi"/>
@@ -178,21 +177,29 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
+			<Item Name="acCanClose.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acCanClose.vi"/>
 			<Item Name="acCanClose.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanClose.vi"/>
+			<Item Name="acCanOpen.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acCanOpen.vi"/>
 			<Item Name="acCanOpen.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanOpen.vi"/>
+			<Item Name="acCanRead.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acCanRead.vi"/>
 			<Item Name="acCanRead.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanRead.vi"/>
 			<Item Name="acCanWrite.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanWrite.vi"/>
 			<Item Name="acCanWriteCluster.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanWriteCluster.vi"/>
+			<Item Name="acClearRxFifo.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acClearRxFifo.vi"/>
 			<Item Name="acClearRxFifo.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acClearRxFifo.vi"/>
+			<Item Name="acEnterResetMode.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acEnterResetMode.vi"/>
 			<Item Name="acEnterResetMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acEnterResetMode.vi"/>
+			<Item Name="acEnterWorkMode.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acEnterWorkMode.vi"/>
 			<Item Name="acEnterWorkMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acEnterWorkMode.vi"/>
 			<Item Name="acGetCommMask.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acGetCommMask.vi"/>
 			<Item Name="acGetStatus.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acGetStatus.vi"/>
 			<Item Name="acSetAcceptanceFilter.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetAcceptanceFilter.vi"/>
 			<Item Name="acSetAcceptanceFilterMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetAcceptanceFilterMode.vi"/>
+			<Item Name="acSetBaud.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acSetBaud.vi"/>
 			<Item Name="acSetBaud.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetBaud.vi"/>
 			<Item Name="acSetBaudRegister.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetBaudRegister.vi"/>
 			<Item Name="acSetCommMask.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetCommMask.vi"/>
+			<Item Name="acSetTimeOut.vi" Type="VI" URL="/../Windows/System32/advcanvi.llb/acSetTimeOut.vi"/>
 			<Item Name="acSetTimeOut.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetTimeOut.vi"/>
 			<Item Name="acWaitEvent.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acWaitEvent.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -213,7 +220,7 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -273,7 +280,7 @@
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{4BEAE028-0367-43F4-8F21-2483034B0022}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{131011DB-2BAD-4AE4-B797-5FCD782A8744}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
@@ -295,7 +302,22 @@
 				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/test/VI/自动检测/模拟量输入/模拟量输入自动测试.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/test/VI/板卡测试II/自动测试/类型3测试/类型3一组自动测试.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/test/VI/板卡测试II/自动测试/类型3测试/类型3自动测试.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/test/VI/板卡测试II/分步测试/类型1/函数类型1测试.vi</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/test/VI/自动检测/模拟量输入/模拟量输入自动测试一组_fast_OK.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sky123.Org</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
