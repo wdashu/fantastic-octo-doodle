@@ -177,29 +177,21 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="acCanClose.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acCanClose.vi"/>
 			<Item Name="acCanClose.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanClose.vi"/>
-			<Item Name="acCanOpen.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acCanOpen.vi"/>
 			<Item Name="acCanOpen.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanOpen.vi"/>
-			<Item Name="acCanRead.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acCanRead.vi"/>
 			<Item Name="acCanRead.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanRead.vi"/>
 			<Item Name="acCanWrite.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanWrite.vi"/>
 			<Item Name="acCanWriteCluster.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acCanWriteCluster.vi"/>
-			<Item Name="acClearRxFifo.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acClearRxFifo.vi"/>
 			<Item Name="acClearRxFifo.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acClearRxFifo.vi"/>
-			<Item Name="acEnterResetMode.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acEnterResetMode.vi"/>
 			<Item Name="acEnterResetMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acEnterResetMode.vi"/>
-			<Item Name="acEnterWorkMode.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acEnterWorkMode.vi"/>
 			<Item Name="acEnterWorkMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acEnterWorkMode.vi"/>
 			<Item Name="acGetCommMask.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acGetCommMask.vi"/>
 			<Item Name="acGetStatus.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acGetStatus.vi"/>
 			<Item Name="acSetAcceptanceFilter.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetAcceptanceFilter.vi"/>
 			<Item Name="acSetAcceptanceFilterMode.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetAcceptanceFilterMode.vi"/>
-			<Item Name="acSetBaud.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acSetBaud.vi"/>
 			<Item Name="acSetBaud.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetBaud.vi"/>
 			<Item Name="acSetBaudRegister.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetBaudRegister.vi"/>
 			<Item Name="acSetCommMask.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetCommMask.vi"/>
-			<Item Name="acSetTimeOut.vi" Type="VI" URL="/../../../Windows/System32/advcanvi.llb/acSetTimeOut.vi"/>
 			<Item Name="acSetTimeOut.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acSetTimeOut.vi"/>
 			<Item Name="acWaitEvent.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/acWaitEvent.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -220,7 +212,7 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
