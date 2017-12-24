@@ -272,7 +272,7 @@
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{131011DB-2BAD-4AE4-B797-5FCD782A8744}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEEF62BC-060D-4B53-8923-C380A1740A84}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
