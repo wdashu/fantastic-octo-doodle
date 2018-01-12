@@ -1,0 +1,18 @@
+[config]
+Dig_I_Num = 2    
+Dig_O_Num = 2    
+DSP_I_Num = 2    
+DSP_I_V = 0    
+AD_I_Num = 2    
+AD_I_V = 1    
+RS232_Port = 0    
+RS232_Num = 1    
+RS232_Bard = 0.100000    
+RS485_Port = 0    
+RS485_Num = 1    
+RS485_Bard = 0    
+CAN_Num = 4    
+CAN_Bard = 0    
+Net_Opt = FALSE    
+Net_IP = ""
+Net_Port = 0    
