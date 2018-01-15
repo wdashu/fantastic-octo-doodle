@@ -212,8 +212,9 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="test" Type="EXE">
@@ -272,7 +273,7 @@
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{AEEF62BC-060D-4B53-8923-C380A1740A84}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49F5988E-8A18-4263-B77D-DF007499DD3E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
