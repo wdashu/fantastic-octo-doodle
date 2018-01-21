@@ -212,67 +212,31 @@
 			<Item Name="Kernel32.dll " Type="Document" URL="Kernel32.dll ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="SetRTR.vi" Type="VI" URL="/C/Windows/System32/advcanvi.llb/SetRTR.vi"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="test" Type="EXE">
+			<Item Name="检测装置" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{8B0922A9-4334-4A1B-98E5-7A0A9EAEBD92}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{95A7566D-F7D9-432E-9A71-6C5BA67A35D6}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">test</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">检测装置</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../test/builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../检测装置/builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">test.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/builds/test.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">检测装置.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../检测装置/builds/检测装置.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../检测装置/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{745C2B73-E2D0-42FF-8503-C1D00ED49A61}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{C13F6E0B-B627-4A57-83FA-803D1CCACD51}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{486B83EB-E129-449F-AB64-685BE6027393}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{5BB89A8E-B123-4A95-942B-69674C899320}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{C63F2EBC-F858-403C-9477-EEC812B1B5D3}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{4AC47BED-02A3-498B-936E-EEB330650C90}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{6D798BD5-DD26-48E5-9C9A-829EE6E3E317}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{4442AA97-9016-4C24-89F6-6F416B9C4631}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{D009D66B-EC53-4129-97AC-8275DA13618A}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{021843A2-09B2-4ECE-B107-4226A10BC27D}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{D637AB85-7A7A-4655-B439-75F939320F4B}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{53BE8E30-6C93-4F68-AF29-60F0BF2C562A}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{06CF1C60-E18B-4BE8-809C-809B2DF8BE2B}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{5A882536-CE65-49E7-9FA2-4C7CEA12367F}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{AAE54C74-39C5-44EA-939E-005A746DB323}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{F76C276F-5E45-4C32-A956-401805B608B5}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{F789FAED-76E6-4950-B60D-C0161580B96F}</Property>
-				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
-				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{7AE45A8D-4FC6-4C55-A3CE-9EF2BEC95F2D}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{9D8D162A-55A3-4323-9F66-E4A40D33CDDB}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{41D7B02E-3C22-4F74-8B2E-8427B61A8B43}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{A6ABF57F-C6EF-4965-B8C0-C184804A4FD8}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{BC6544B5-BFBE-485C-B124-4F0852B389EC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{5460E368-E30B-4FAB-B748-F6C479C44135}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{01C76E24-AA8E-4648-B0AD-00A5CFF2DF46}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{AA3FD63C-9C36-4727-9ED2-D93BB99EC57A}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{FAE4ED1B-C9BA-46AD-ABFD-5CF95A53DD8D}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{9C9A98F4-72B1-4E12-BA39-C308D6636E90}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{FF69C754-9ECC-479C-A552-F19D05F1CA5F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{6DE17709-3045-4D6A-AF9B-364BECA02F82}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{C344CBCA-EFC4-4252-94BE-02F7F01249E7}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{FD471123-944D-40F9-B0BC-228E742A8569}</Property>
-				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
-				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Test</Property>
-				<Property Name="Exe_actXServerName" Type="Str">Test</Property>
-				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{28D1C31D-9DE5-49E6-8DEA-EA2DFF87D952}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/test/builds/Destop.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4BCAF56-D5BC-4569-8F5A-7A654C77098C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/test/VI/主界面/主界面.vi</Property>
@@ -311,13 +275,13 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sky123.Org</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">检测装置</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">test</Property>
+				<Property Name="TgtF_internalName" Type="Str">检测装置</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 Sky123.Org</Property>
-				<Property Name="TgtF_productName" Type="Str">test</Property>
+				<Property Name="TgtF_productName" Type="Str">检测装置</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1B471B6F-A0EF-4186-8EBC-AE2279EE0345}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">test.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">检测装置.exe</Property>
 			</Item>
 			<Item Name="我的安装程序" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">test</Property>
