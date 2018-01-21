@@ -1,0 +1,9 @@
+[TEST_CONFIG]
+test1 = "²âÊÔ1	0	0	1	1	1	0	0	5	0.02\0D\0A²âÊÔ2	0	0	2	2	1	0	-5	5	0.02\0D\0A²âÊÔ3	0	0	3	3	1	0	-3	4	0.02\0D\0A"
+test2 = ""
+test4 = ""
+test1_num = 3    
+test2_num = 1    
+test3_num = 1    
+test4_num = 1    
+test3 = ""
