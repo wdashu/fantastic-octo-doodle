@@ -235,7 +235,7 @@
 				<Property Name="Destination[1].path" Type="Path">../检测装置/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/检测装置/builds/Destop.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E76E0E33-9DA3-454D-B922-B6901AD20215}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49754955-DA9E-415B-8491-283257F5B087}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/检测装置/VI/板卡测试II/自动测试/类型1测试/测试类型1自动测试一组.vi</Property>
